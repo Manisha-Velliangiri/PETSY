@@ -1,0 +1,82 @@
+.shop-category {
+  background-color: lavender;
+}
+
+.shop-category .banner {
+  display: block;
+  margin: 30px auto;
+  width: 100%;
+  height: auto;
+  margin-top: 90px; /* Maintain aspect ratio */
+}
+
+.shop-category .shopcategory-indexSort {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 170px; /* Adjust margins as needed */
+  font-weight: 600;
+}
+
+.shop-category .shopcategory-sort {
+  padding: 20px 20px;
+  border-radius: 20px;
+  border: 1px solid #888;
+}
+
+.shopcategory-products {
+  margin: 80px 180px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 80px;
+}
+
+.shop-category .shopcategory-products {
+  margin: 20px 150px; /* Adjust margins as needed */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Display three columns evenly */
+  row-gap: 40px; /* Adjust the gap between rows */
+  column-gap: 60px; /* Adjust the gap between columns */
+}
+
+.shop-category .shopcategory-products img {
+  display: block;
+  width: 90%;
+  height: 450px;
+  object-fit: cover;
+  max-height: 360px; /* Set a maximum height for consistency */
+}
+
+
+/* Media query for screens below 500px */
+@media (max-width: 500px) {
+  .shop-category .banner {
+    margin-top: 80px; /* Adjust margin top for smaller screens */
+  }
+
+  .shop-category .shopcategory-indexSort {
+    margin: 0 20px; /* Adjust margins for smaller screens */
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the start */
+  }
+
+  .shop-category .shopcategory-sort {
+    margin-top: 20px; /* Add margin top for separation */
+  }
+
+  .shop-category .shopcategory-products {
+    margin: 20px 20px; /* Adjust margins for smaller screens */
+    grid-template-columns: repeat(2, 1fr); /* Display two columns instead of four */
+    row-gap: 30px; /* Adjust the gap between rows */
+    column-gap: 20px; /* Adjust the gap between columns */
+  }
+
+  .shop-category .shopcategory-products img {
+    width: 100%; /* Ensure the image spans the container width */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+
+
+  

@@ -1,0 +1,50 @@
+.new-collections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 190vh;
+    background-color: lavender;
+    margin-bottom: 100px;
+}
+
+.new-collections h1 {
+    color: #171717;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0;
+}
+
+.new-collections hr {
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+
+.collections {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+/* Media query for screens below 500px */
+@media (max-width: 500px) {
+    .new-collections {
+        height: auto; /* Adjust height to fit content */
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+
+    .new-collections h1 {
+        font-size: 40px; /* Decrease font size */
+    }
+
+    .collections {
+        grid-template-columns: 1fr 1fr; /* Adjust grid to two columns */
+        gap: 20px; /* Reduce gap between items */
+        margin-top: 30px; /* Adjust margin top */
+    }
+}

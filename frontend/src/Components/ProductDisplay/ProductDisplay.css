@@ -1,0 +1,204 @@
+.productdisplay {
+    width: 1300px;
+    height: 100vh;
+    display: flex;
+    margin: 20px 100px;
+    margin-bottom: 150px;
+    background-color: lavender;
+    margin-top: 100px;
+}
+
+.productdisplay-left {
+    display: flex;
+    gap: 17px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.productdisplay-img-list img {
+    height: 163px;
+}
+
+.productdisplay-img-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.productdisplay-main-img {
+    width: 440px;
+    height: 676px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.productdisplay-right {
+    margin: 0px 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.productdisplay-right h1 {
+    color: #3d3d3d;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.productdisplay-right-star {
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    gap: 5px;
+    color: #1c1c1c;
+    font-size: 16px;
+}
+
+.productdisplay-right-prices {
+    display: flex;
+    margin: 40px 0px;
+    gap: 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.productdisplay-right-price-old {
+    color: #818181;
+    text-decoration: line-through;
+}
+
+.productdisplay-right-price-new {
+    color: #ff4141;
+}
+
+.productdisplay-right-description {
+    margin-top: 20px;
+    color: #656565;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.productdisplay-right-size h3 {
+    margin-top: 55px;
+    color: #656565;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.productdisplay-right-sizes {
+    display: flex;
+    margin: 30px 0px;
+    gap: 20px;
+}
+
+.productdisplay-right-sizes div {
+    padding: 18px 24px;
+    background: #fbfbfb;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.productdisplay-right button {
+    padding: 20px 40px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: #FF4141;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.productdisplay-right-category {
+    margin-top: 10px;
+}
+
+.productdisplay-right-category span {
+    font-weight: 600;
+}
+
+/* Media Query for screens with max-width of 500px */
+@media(max-width: 500px) {
+    .productdisplay {
+        width: 100%;  /* Full width for smaller screens */
+        flex-direction: column;
+        margin: 0 10px;  /* Add side margins for smaller screens */
+        height: auto; 
+        margin-top: 80px;
+         /* Adjust height to auto */
+    }
+
+    .productdisplay-left {
+        gap: 0px;
+        flex-direction: row;
+        margin: 0;  /* Remove margins for smaller screens */
+        margin-top: 10px;
+        justify-content: center;  /* Center the image list */
+    }
+
+    .productdisplay-img-list {
+        flex-direction: row;  /* Change to row for smaller screens */
+        gap: 5px;  /* Adjust gap */
+    }
+
+    .productdisplay-img-list img {
+        height: 100px;  /* Smaller images for thumbnails */
+    }
+
+    .productdisplay-main-img {
+        width: 100%;  /* Full width for the main image */
+        height: auto;  /* Adjust height to auto */
+        margin: 10px 0;  /* Add margin for spacing */
+    }
+
+    .productdisplay-right {
+        margin: 10px;  /* Reduce margin for smaller screens */
+        width: calc(100% - 20px);  /* Adjust width */
+    }
+
+    .productdisplay-right h1 {
+        font-size: 24px;  /* Smaller font size */
+        margin-top: 10px;
+    }
+
+    .productdisplay-right-star img {
+        width: 15px;  /* Smaller star icons */
+    }
+
+    .productdisplay-right-prices {
+        gap: 10px;  /* Reduce gap */
+        font-size: 18px;  /* Smaller font size */
+    }
+
+    .productdisplay-right-description {
+        font-size: 14px;  /* Smaller font size */
+        margin-top: 10px;  /* Adjust margin */
+    }
+
+    .productdisplay-right-sizes {
+        gap: 10px;  /* Reduce gap */
+        margin: 20px 0;  /* Adjust margin */
+    }
+
+    .productdisplay-right-sizes div {
+        padding: 10px 16px;  /* Smaller padding */
+        font-size: 14px;  /* Smaller font size */
+    }
+
+    .productdisplay-right button {
+        width: 100%;  /* Full width button */
+        font-size: 16px;  /* Adjust font size */
+        padding: 12px 0;  /* Adjust padding */
+    }
+
+    .productdisplay-right-category {
+        font-size: 16px;  /* Adjust font size */
+    }
+}
+
+
+

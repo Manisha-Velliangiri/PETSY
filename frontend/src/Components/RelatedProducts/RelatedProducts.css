@@ -1,0 +1,56 @@
+.relatedproducts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    min-height: 100vh; /* Adjusted to min-height for responsiveness */
+    background-color: lavender;
+    margin-bottom: 100px;
+    padding: 20px; /* Added padding for spacing */
+}
+
+.relatedproducts h1 {
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center; /* Center aligning the heading */
+}
+
+.relatedproducts hr {
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+    margin-bottom: 20px; /* Added margin bottom for spacing */
+}
+
+.relatedproducts-item {
+    margin-top: 50px; /* Reduced margin-top for smaller screens */
+    display: flex;
+    flex-wrap: wrap; /* Ensure items wrap on smaller screens */
+    justify-content: center; /* Center align items */
+    gap: 30px;
+}
+
+/* Media Query for screens with max-width of 500px */
+@media(max-width: 500px) {
+    .relatedproducts {
+        min-height: auto; /* Adjusted to auto to allow content to dictate height */
+        padding: 10px; /* Reduced padding */
+    }
+
+    .relatedproducts h1 {
+        font-size: 36px; /* Reduced font size for smaller screens */
+    }
+
+    .relatedproducts hr {
+        width: 150px; /* Reduced width of hr */
+        height: 4px; /* Reduced height of hr */
+        margin-bottom: 10px; /* Reduced margin bottom */
+    }
+
+    .relatedproducts-item {
+        margin-top: 30px; /* Further reduced margin-top */
+        gap: 15px; /* Reduced gap between items */
+    }
+}

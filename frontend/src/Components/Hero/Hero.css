@@ -1,0 +1,111 @@
+.hero {
+    height: 90vh;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    display: flex;
+    padding: 0; /* Remove any default padding */
+    margin-top: 80px; 
+}
+
+.hero-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 190px;
+    line-height: 1.1;
+}
+
+.hero-left h2 {
+    color: #090909;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.hero-left p {
+    color: #171717;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.hero-hand-icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-hand-icon img {
+    width: 105px;
+}
+
+.hero-latest-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 310px;
+    height: 70px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background: #ff4141;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    padding-right: 0px;
+}
+
+.hero-right {
+    flex: 1;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    overflow: hidden; /* Ensure content doesn't overflow */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 70px; /* Adjust this value as needed */
+}
+
+.hero-right img {
+    max-width: 150%;
+    max-height: calc(100% - 90px); /* Subtract padding-top value */
+    object-fit: contain; /* Ensure the image scales properly */
+    border-radius: 40px; /* Adjust the value to make corners round */
+}
+
+/* Media Query for screens with max-width of 500px */
+@media (max-width: 500px) {
+    .hero {
+        flex-direction: column; /* Stack content vertically */
+        height: auto; /* Allow content to dictate height */
+        padding: 20px; /* Add padding to all sides */
+        align-items: center; /* Center content horizontally */
+    }
+
+    .hero-left {
+        padding: 0;
+        text-align: center; /* Center text content */
+    }
+
+    .hero-left h2 {
+        font-size: 22px;
+    }
+
+    .hero-left p {
+        font-size: 60px;
+    }
+
+    .hero-latest-btn {
+        width: 100%; /* Full width button */
+        max-width: 300px; /* Limit maximum width */
+    }
+
+    .hero-right {
+        padding: 0; /* Remove right padding */
+    }
+
+    .hero-right img {
+        width: 100%; /* Full width image */
+        max-height: none; /* Remove max-height constraint */
+        border-radius: 0; /* Remove border radius */
+    }
+}

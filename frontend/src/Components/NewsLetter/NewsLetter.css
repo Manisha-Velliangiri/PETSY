@@ -1,0 +1,91 @@
+.newsletter {
+    width: 65%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0px 140px;
+    margin-bottom: 150px;
+    background: linear-gradient(180deg, #fde1ff 50%, #e1ffea22 100%);
+    gap: 30px;
+}
+
+.newsletter h1 {
+    color: #454545;
+    font-size: 55px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.newsletter p {
+    color: #454545;
+    font-size: 20px;
+    text-align: center;
+}
+
+.newsletter div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    width: 730px;
+    height: 70px;
+    border-radius: 80px;
+    border: 1px solid #e3e3e3;
+}
+
+.newsletter input {
+    width: 500px;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    color: #616161;
+    font-family: Poppins;
+    font-size: 16px;
+    padding: 0 20px;
+}
+
+.newsletter div button {
+    width: 210px;
+    height: 70px;
+    border-radius: 80px;
+    background: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Media Query for screens with max-width of 500px */
+@media (max-width: 500px) {
+    .newsletter {
+        width: 90%; /* Full width on smaller screens */
+        padding: 0 20px; /* Reduce horizontal padding */
+        margin-bottom: 50px; /* Reduce bottom margin */
+    }
+
+    .newsletter h1 {
+        font-size: 40px; /* Decrease font size */
+    }
+
+    .newsletter p {
+        font-size: 16px; /* Decrease font size */
+    }
+
+    .newsletter div {
+        width: 100%; /* Full width for input container */
+        max-width: 500px; /* Limit maximum width */
+        padding: 0 10px; /* Adjust padding */
+    }
+
+    .newsletter input {
+        width: 100%; /* Full width input */
+        max-width: 100%; /* Ensure input doesn't overflow */
+    }
+
+    .newsletter div button {
+        width: 100%; /* Full width button */
+        max-width: 210px; /* Limit maximum width */
+    }
+}

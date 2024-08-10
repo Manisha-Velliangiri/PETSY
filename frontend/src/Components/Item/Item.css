@@ -1,0 +1,37 @@
+.item {
+    width: 100%; /* Adjust width of each item */
+    max-width: 300px; /* Maximum width to ensure responsiveness */
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  
+  .item-image {
+    max-width: 100%; /* Ensure image doesn't exceed its container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Prevents extra space beneath image */
+    border-radius: 10px; /* Rounded corners for aesthetics */
+  }
+  
+  .item p {
+    margin: 6px 0;
+    font-size: 17px;
+    font-weight: 400;
+    /* Add other paragraph styling */
+  }
+  
+  .item-prices {
+    display: flex;
+    justify-content: center; /* Center prices horizontally */
+    align-items: center; /* Center prices vertically */
+    margin-top: 10px; /* Adjust spacing */
+  }
+  
+  .item-price-new, .item-price-old {
+    color: #373737;
+    font-size: 18px;
+    font-weight: 700;
+    /* Add other styles for prices */
+  }
+  
+
