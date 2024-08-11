@@ -10,7 +10,13 @@ const cors = require("cors");
 
 //to pass the reqs automatically through json
 app.use(express.json());
-app.use(cors());
+
+
+app.use(cors({
+    origin: 'https://petsy-mldy.onrender.com', // Replace with your actual frontend URL
+    methods: ['GET', 'POST'],
+    allowedHeaders: ['Content-Type', 'Authorization']
+}));
 //manishadev  //petsy7devmanisha7
 //initialize database
 mongoose.connect("mongodb+srv://manisha:mongopetsyme@petsy.gipdnth.mongodb.net/petsy");
