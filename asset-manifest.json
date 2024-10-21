@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/PETSY/static/css/main.d7e3295c.css",
+    "main.js": "/PETSY/static/js/main.ac94cb4a.js",
+    "static/media/product_8.jpg": "/PETSY/static/media/product_8.f0712805be050731d678.jpg",
+    "static/media/exclusive_image.jpg": "/PETSY/static/media/exclusive_image.72304ea7a7c78d2e2c85.jpg",
+    "static/media/product_p2.jpg": "/PETSY/static/media/product_p2.ffd6d5e6d4f32f61b842.jpg",
+    "static/media/product_35.jpg": "/PETSY/static/media/product_35.25ac850d59406575ead4.jpg",
+    "static/media/product_p4.jpg": "/PETSY/static/media/product_p4.1a40dcdd02c63e41aeb0.jpg",
+    "static/media/product_15.jpg": "/PETSY/static/media/product_15.128947716935ee88aed4.jpg",
+    "static/media/product_14.jpg": "/PETSY/static/media/product_14.c837a3dc424e3741c7dd.jpg",
+    "static/media/product_17.jpg": "/PETSY/static/media/product_17.76a490a1c01b5c4629df.jpg",
+    "static/media/hero_image.jpg": "/PETSY/static/media/hero_image.15e857e4266cee6ba8c4.jpg",
+    "static/media/product_p3.jpg": "/PETSY/static/media/product_p3.753a7e57fde874a17047.jpg",
+    "static/media/product_12.jpg": "/PETSY/static/media/product_12.5dff3c3db9fd19e1107c.jpg",
+    "static/media/product_p1.jpg": "/PETSY/static/media/product_p1.aad673f7c4172232cb68.jpg",
+    "static/media/banner_cats.jpg": "/PETSY/static/media/banner_cats.ea9ffb91a4c410d2cadc.jpg",
+    "static/media/banner_dogs.jpg": "/PETSY/static/media/banner_dogs.1f834c1603967e99323f.jpg",
+    "static/media/hand_icon.png": "/PETSY/static/media/hand_icon.9c7487cecb600f30901b.png",
+    "index.html": "/PETSY/index.html",
+    "main.d7e3295c.css.map": "/PETSY/static/css/main.d7e3295c.css.map",
+    "main.ac94cb4a.js.map": "/PETSY/static/js/main.ac94cb4a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7e3295c.css",
+    "static/js/main.ac94cb4a.js"
+  ]
+}
